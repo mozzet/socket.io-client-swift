@@ -90,6 +90,7 @@
 		9432E0091F77F87D006AF628 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		9432E00B1F77F883006AF628 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/Mac/Starscream.framework; sourceTree = "<group>"; };
 		9432E00D1F77F889006AF628 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/tvOS/Starscream.framework; sourceTree = "<group>"; };
+		A6F448CB24CCAD7700344EF0 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		DD52B078DB0A3C3D1BB507CD /* SocketIOClientOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientOption.swift; sourceTree = "<group>"; };
 		DD52B09F7984E730513AB7E5 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
 		DD52B1D9BC4AE46D38D827DE /* SocketIOStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOStatus.swift; sourceTree = "<group>"; };
@@ -213,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				572EF23B1B51F18A00EEBB58 /* Info.plist */,
+				A6F448CB24CCAD7700344EF0 /* Config.xcconfig */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -744,6 +746,7 @@
 		};
 		572EF24D1B51F18A00EEBB58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F448CB24CCAD7700344EF0 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
