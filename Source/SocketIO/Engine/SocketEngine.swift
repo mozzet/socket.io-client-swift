@@ -138,7 +138,7 @@ open class SocketEngine : NSObject, URLSessionDelegate, SocketEnginePollable, So
     private var pongsMissedMax = 0
     private var probeWait = ProbeWaitQueue()
     private var secure = false
-    private var security: SocketIO.SSLSecurity?
+    private var security: SSLSecurity?
     private var selfSigned = false
 
     // MARK: Initializers

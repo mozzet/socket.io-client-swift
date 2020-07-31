@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "572EF2371B51F18A00EEBB58"
-               BuildableName = "SocketIO.framework"
-               BlueprintName = "SocketIO"
-               ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "572EF2411B51F18A00EEBB58"
-               BuildableName = "SocketIO-Tests.xctest"
-               BlueprintName = "SocketIO-Tests"
-               ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
+               BlueprintIdentifier = "43E73C6B24D3DF72004146AB"
+               BuildableName = "io_socket_SocketIO.framework"
+               BlueprintName = "io.socket.SocketIO"
+               ReferencedContainer = "container:io.socket.SocketIO.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "572EF2411B51F18A00EEBB58"
-               BuildableName = "SocketIO-Tests.xctest"
-               BlueprintName = "SocketIO-Tests"
-               ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -64,15 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "572EF2371B51F18A00EEBB58"
-            BuildableName = "SocketIO.framework"
-            BlueprintName = "SocketIO"
-            ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -83,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "572EF2371B51F18A00EEBB58"
-            BuildableName = "SocketIO.framework"
-            BlueprintName = "SocketIO"
-            ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
+            BlueprintIdentifier = "43E73C6B24D3DF72004146AB"
+            BuildableName = "io_socket_SocketIO.framework"
+            BlueprintName = "io.socket.SocketIO"
+            ReferencedContainer = "container:io.socket.SocketIO.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
